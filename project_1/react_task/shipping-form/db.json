@@ -1,0 +1,95 @@
+{
+    "callerTypes": [
+      { "id": 1, "type": "Internal" },
+      { "id": 2, "type": "External" },
+      { "id": 3, "type": "Customer" }
+    ],
+    "accountNumbers": [
+    { "id": 1, "accountNo": "ACC12345" },
+    { "id": 2, "accountNo": "ACC67890" },
+    { "id": 3, "accountNo": "ACC11223" }
+  ],
+  "serviceTypes": [
+    { "id": 1, "type": "GRD" },
+    { "id": 2, "type": "DGRD" },
+    { "id": 3, "type": "External" }
+  ],
+  "fulfillmentNodes": [
+    { "id": 1, "node": "Node A" },
+    { "id": 2, "node": "Node B" },
+    { "id": 3, "node": "Node C" }
+  ],
+
+
+
+  "senderAddress1": [
+    {
+      "id": 1,
+      "type": "Sender",
+      "address1": "123 Main Street"
+    },
+    {
+      "id": 2,
+      "type": "Sender",
+      "address1": "456 Elm Avenue"
+    },
+    {
+      "id": 3,
+      "type": "Sender",
+      "address1": "789 Oak Drive"
+    }
+  ],
+  "senderAddress2": [
+    {
+      "id": 1,
+      "type": "Sender",
+      "address2": "Apt 101, Downtown"
+    },
+    {
+      "id": 2,
+      "type": "Sender",
+      "address2": "Suite 202, City Center"
+    },
+    {
+      "id": 3,
+      "type": "Sender",
+      "address2": "Building 3, Suburb"
+    }
+  ],
+  "recipientAddress1": [
+    {
+      "id": 1,
+      "type": "Recipient",
+      "address1": "101 Pine Road"
+    },
+    {
+      "id": 2,
+      "type": "Recipient",
+      "address1": "202 Maple Lane"
+    },
+    {
+      "id": 3,
+      "type": "Recipient",
+      "address1": "303 Cedar Boulevard"
+    }
+  ],
+  "recipientAddress2": [
+    {
+      "id": 1,
+      "type": "Recipient",
+      "address2": "Floor 1, Business District"
+    },
+    {
+      "id": 2,
+      "type": "Recipient",
+      "address2": "Unit 5, Residential Area"
+    },
+    {
+      "id": 3,
+      "type": "Recipient",
+      "address2": "Block C, Industrial Zone"
+    }
+  ]
+  
+}
+  
